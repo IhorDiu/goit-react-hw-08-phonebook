@@ -5,7 +5,7 @@ import { Formik } from 'formik';
 
 import { Input, FormInput, AddButton } from './ContactForm.styled';
 
-const initialValues = { name: '', phone: '' };
+const initialValues = { name: '', number: '' };
 
 export const ContactForm = () => {
   const dispatch = useDispatch();
@@ -42,12 +42,12 @@ export const ContactForm = () => {
             required
           />
         </label>
-        <label htmlFor="phone">
+        <label htmlFor="number">
           Phone
           <Input
             type="tel"
-            name="phone"
-            placeholder="phone"
+            name="number"
+            placeholder="number"
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required
