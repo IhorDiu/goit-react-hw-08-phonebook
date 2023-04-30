@@ -23,27 +23,27 @@ export const FormInput = styled(Form)`
 `;
 
 
-export const AddButton = styled.button`
-position: relative;
-width: 150px;
-height: 30px;
-margin-left: 50px;
-border-radius: 50px;
-font-family: "Fantasy";
-color: #302C8E;
-border: 2px solid 3F3B90;
-background-color: #7771E3;
-cursor: pointer;
-box-shadow: 0 0 10px #8c89d5;
-overflow: hidden;
-transition: .3s;
+// export const AddButton = styled.button`
+// position: relative;
+// width: 150px;
+// height: 30px;
+// margin-left: 50px;
+// border-radius: 50px;
+// font-family: "Fantasy";
+// color: #302C8E;
+// border: 2px solid 3F3B90;
+// background-color: #7771E3;
+// cursor: pointer;
+// box-shadow: 0 0 10px #8c89d5;
+// overflow: hidden;
+// transition: .3s;
 
 
-:hover {
-    background-color: 4B45DA;
-    transform: scale(1.2);
-    box-shadow: 0 0 4px #111;
-    transition: .3s;
-}
-`;
+// :hover {
+//     background-color: 4B45DA;
+//     transform: scale(1.2);
+//     box-shadow: 0 0 4px #111;
+//     transition: .3s;
+// }
+// `;
 

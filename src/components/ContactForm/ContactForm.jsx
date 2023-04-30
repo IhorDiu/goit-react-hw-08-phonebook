@@ -2,8 +2,10 @@ import { useDispatch } from 'react-redux';
 import { addContacts } from 'redux/operations';
 import { useContacts } from 'hooks';
 import { Formik } from 'formik';
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
 
-import { Input, FormInput, AddButton } from './ContactForm.styled';
+import { Input, FormInput } from './ContactForm.styled';
 
 const initialValues = { name: '', number: '' };
 
@@ -54,7 +56,7 @@ export const ContactForm = () => {
           />
         </label>
 
-        <AddButton type="submit">Add contact</AddButton>
+        <Button variant="contained" endIcon={<SendIcon />} type="submit">Add contact</Button>
       </FormInput>
     </Formik>
   );
