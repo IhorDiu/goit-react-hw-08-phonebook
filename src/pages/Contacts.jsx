@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 
 import {ContactForm, ContactList, Filter } from 'components';
@@ -10,9 +10,9 @@ export default function Contacts() {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <Title>Your contacts</Title>
-      </Helmet>
+      {/* </Helmet> */}
       <ContactForm />
       <Subtitle>Contacts</Subtitle>
       <Filter />
